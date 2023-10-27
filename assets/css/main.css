@@ -47,62 +47,58 @@ body{
 
 .backgroundimg {
 
-
-
-
-
     position: absolute;
     top: 0;
     left: 0;
+
     height: 100%;
     width: 100%;
 
 }
 
 #back1 {
-    background: url("../images/hazel-bg.jpg") no-repeat top center fixed;
+    background: url("../images/bg1.jpg") no-repeat top center fixed;
     
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 #back2 {
     background: url("../images/bg2.jpg") no-repeat top center fixed;
 
-        -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 #back3 {
     background: url("../images/bg3.jpg") no-repeat top center fixed;
-        -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #back4 {
     background: url("../images/bg4.jpg") no-repeat top center fixed;
-        -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 #back5 {
     background: url("../images/bg5.jpg") no-repeat top center fixed;
-        -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -201,16 +197,16 @@ a:hover{
 
 .title {
 
-/*font-family: 'Vollkorn', sans-serif;*/
- background: red url("../images/logo-hazel.svg") no-repeat center center fixed;
+ background:  url("../images/logo-hazel.svg") no-repeat center center fixed;
  float:left;
- width: 25rem;
- height: 25rem;
+ display: block;
+ width: 40rem;
+ height: 40rem;
  
- -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+ -webkit-background-size: 40rem;
+    -moz-background-size: 40rem;
+    -o-background-size: 40rem;
+    background-size: 40rem;
  
 position: absolute;
 z-index: 2;
@@ -219,18 +215,12 @@ z-index: 2;
 
 
 .desc {
-
-  margin-top: 50%;
-
-letter-spacing: 2px;
-
+margin-top: 40rem;
+float: left;
+display: block;
 font-size: 1.2em;
-
-text-transform: lowercase;
-
-font-style: italic;
-
-margin-bottom: 0;
+position: absolute;
+z-index: 2;
 
 }
 
