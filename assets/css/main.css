@@ -202,9 +202,16 @@ a:hover{
 .title {
 
 /*font-family: 'Vollkorn', sans-serif;*/
- background: url("../images/logo-hazel.svg") no-repeat center center fixed;
+ background: red url("../images/logo-hazel.svg") no-repeat center center fixed;
  float:left;
  width: 25rem;
+ height: 25rem;
+ 
+ -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
 position: absolute;
 z-index: 2;
 }
