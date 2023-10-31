@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.51 540.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: LovinaScript2-2, 'Lovina Script';
+        font-size: 150px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <g>
+      <text class="cls-1" transform="translate(94.46 135)"><tspan x="0" y="0">Hazel</tspan></text>
+      <text class="cls-1" transform="translate(0 289.38)"><tspan x="0" y="0">Sarah</tspan></text>
+      <text class="cls-1" transform="translate(90.35 433.09)"><tspan x="0" y="0">Jithin</tspan></text>
+    </g>
+  </g>
+</svg>
