@@ -1,48 +1,7 @@
-<?php
-
-
-
-$mail_sent = 0;
-
-
-
-if(!empty($_POST)){
-
-    if(isset($_POST['mailId'])){
-
-        $to      = 'mail@jith.in';
-
-        $subject = 'Suja web message';
-
-        $message = htmlentities($_POST['mailId']);
-
-        $headers = 'From: g4gthin@gmail.com' . "\r\n" .
-
-            'Reply-To: g4gthin@gmail.com' . "\r\n" .
-
-            'X-Mailer: PHP/' . phpversion();
-
-
-
-        mail($to, $subject, $message, $headers);
-
-        //print($_POST['mailId']);
-
-        $mail_sent = 1;
-
-    }
-
-}
-
-?>
-
-
 
 <!DOCTYPE html>
 
 <html lang="en">
-
-
 
 <head>
 
@@ -88,9 +47,6 @@ if(!empty($_POST)){
 
     <link href="assets/css/main.css" rel="stylesheet">
 
-	<script src="https://use.fontawesome.com/860575cfeb.js"></script>
-
- <link href="https://fonts.googleapis.com/css?family=Stardos+Stencil" rel="stylesheet"> 
 
 
 
@@ -106,123 +62,11 @@ if(!empty($_POST)){
 
     <![endif]-->
 
-
-
-    <script type="text/javascript">
-
-
-
-
-
-    function validateForm()
-
-    {
-
-        var x=document.getElementById('mailId').value;
-
-        if(x!=""){
-
-            return true;
-
-        }
-
-		else{
-
-			 return false;
-
-		}
-
-
-
-        /*var atpos=x.indexOf("@");
-
-        var dotpos=x.lastIndexOf(".");
-
-        if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
-
-          {
-
-    		document.getElementById('mailId').className ='textField col-xs-12 col-sm-12 col-md-12 col-lg-12 error';
-
-            return false;
-
-          }
-
-          else {
-
-    		document.getElementById('mailId').className ='textField col-xs-12 col-sm-12 col-md-12 col-lg-12';
-
-    		document.getElementById('requestButton').style.textDecoration="none";
-
-            requestButton.value="Thank you";
-
-    		return true;
-
-    }*/
-
-}
-
-
-
-function activatebutton(){
-
-	if(document.getElementById("mailId").value.length>0){
-
-    document.getElementById('requestButton').classList.add("activebutton");
-
-	}
-
-	else{
-
-		document.getElementById('requestButton').classList.remove("activebutton");
-
-	}
-
-}
-
-
-
-</script>
-
-
-
-<script type="text/javascript">
-
-
-
-  var _gaq = _gaq || [];
-
-  _gaq.push(['_setAccount', 'UA-36812953-1']);
-
-  _gaq.push(['_trackPageview']);
-
-
-
-  (function() {
-
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-
-  })();
-
-
-
-</script>
-
-
-
 </head>
 
 
 
 <body>
-
-
-
-
 
     <h1 class=" title col-xs-12 col-sm-12 col-md-12 col-lg-12"></h1>
     <h3 class="desc">Welcome to the world, our sweet angel.</h3>
@@ -235,24 +79,7 @@ function activatebutton(){
                     <div class="backgroundimg" id="back5"></div>
                 </div>
 
-
-
-   
 </body>
-
-
-
-
-
-
-
-    <!-- Bootstrap Core JavaScript -->
-
-    <script src="assets/js/bootstrap.min.js"></script>
-
-
-
-
 
 </html>
 
