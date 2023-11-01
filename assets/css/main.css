@@ -1,26 +1,5 @@
 
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:2s;
-  -moz-animation-duration:2s;
-  animation-duration:2s;
-}
-
-
-
 html,body{
 
   height: 100%;
@@ -29,10 +8,7 @@ html,body{
 
   background: #fff;
 
-  font-family: 'arial', sans-serif;
-
-
-
+  font-family: 'Inter','arial', sans-serif;
   color: #fff;
 
   position: relative;
@@ -52,8 +28,19 @@ body{
 
   width: 100%;
 
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 
 
 .backgroundimg {
@@ -221,18 +208,20 @@ a:hover{
  
 position: absolute;
 z-index: 2;
+
+filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
 }
 
 
 
 .desc {
-margin-top: 45rem;
+margin-top: 50rem;
 float: left;
 display: block;
 font-size: 1.2em;
 position: absolute;
 z-index: 2;
-
+font-family: 'Inter';
 }
 
 
@@ -313,49 +302,43 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 @media (min-width: 1200px) 
 {
-  .title{ 
-   }
-
+.mobile-only-br{display:none}
  }/* min-width: 1200px */
 
 
 
  @media (max-width: 1200px) {
-      .title{ font-size: 30vw;
-       }
-
-
-      
 
   }/* max-width: 1200px */
 
 
-
-
-
-
-
-
-
  @media (max-width: 992px) /* max-width: 992px */
  {
-
-    .title{font-size: 35vw;
-
-     }
-
 
 }/* max-width: 992px */
 
  @media (max-width: 768px) /* max-width: 768px */
  {
 
-  .title{font-size: 45vw;
+
+
+  .title{
+     width: 35rem;
+ height: 35rem;
+ 
+ -webkit-background-size: 35rem;
+    -moz-background-size: 35rem;
+    -o-background-size: 35rem;
+    background-size: 35rem;
   
    }
 
+   .desc {
+font-size: 1.5rem;
+margin-top: 45rem;
+   }
 
-.footer  a{ padding: 1.5vw 0;}
+
 
 #back1 {
 
