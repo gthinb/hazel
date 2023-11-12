@@ -6,7 +6,7 @@ html,body{
 
   text-align: center;
 
-  background: #fff;
+  background: #dca4c1;
 
   font-family: 'Inter','arial', sans-serif;
   color: #fff;
@@ -337,87 +337,10 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
    .desc {
 font-size: 1.5rem;
+
    }
 
 
-
-#back1 {
-
-
-  background: url(../images/bg1.jpg) no-repeat center center fixed,#fff; /* FF3.6-15 */
-
-  background: url(../images/bg1.jpg) no-repeat center center fixed,#fff; /* Chrome10-25,Safari5.1-6 */
-
-  background: url(../images/bg1.jpg) no-repeat center center fixed,#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-
-
-}
-
-#back2 {
-
-
-  background: url(../images/bg2.jpg) no-repeat center center fixed,#fff; /* FF3.6-15 */
-
-  background: url(../images/bg2.jpg) no-repeat center center fixed,#fff; /* Chrome10-25,Safari5.1-6 */
-
-  background: url(../images/bg2.jpg) no-repeat center center fixed,#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-
-}
-
-#back3 {
-
-  background: url(../images/bg3.jpg) no-repeat center center fixed,#fff; /* FF3.6-15 */
-
-  background: url(../images/bg3.jpg) no-repeat center center fixed,#fff; /* Chrome10-25,Safari5.1-6 */
-
-  background: url(../images/bg3.jpg) no-repeat center center fixed,#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#back4 {
-
-  background: url(../images/bg4.jpg) no-repeat center center fixed,#fff; /* FF3.6-15 */
-
-  background: url(../images/bg4.jpg) no-repeat center center fixed,#fff; /* Chrome10-25,Safari5.1-6 */
-
-  background: url(../images/bg4.jpg) no-repeat center center fixed,#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
-
-#back5 {
-
-background: url(../images/bg5.jpg) no-repeat center center fixed,#fff; /* FF3.6-15 */
-
-  background: url(../images/bg5.jpg) no-repeat center center fixed,#fff; /* Chrome10-25,Safari5.1-6 */
-
-  background: url(../images/bg5.jpg) no-repeat center center fixed,#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 
