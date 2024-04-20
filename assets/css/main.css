@@ -1,3 +1,30 @@
+@font-face {
+     font-family: Sentinel-Bold;
+     src: url(../fonts/Sentinel/Sentinel-Bold.woff);
+}
+@font-face {
+     font-family: Sentinel-Medium;
+     src: url(../fonts/Sentinel/Sentinel-Medium.woff);
+}
+
+@font-face {
+     font-family: Sentinel-Book;
+     src: url(../fonts/Sentinel/Sentinel-Book.woff);
+}
+@font-face {
+     font-family: Sentinel-BookItalic;
+     src: url(../fonts/Sentinel/Sentinel-BookItalic.woff);
+}
+
+@font-face {
+     font-family: Sentinel-Light;
+     src: url(../fonts/Sentinel/Sentinel-Light.woff);
+}
+@font-face {
+     font-family: Sentinel-LightItalic;
+     src: url(../fonts/Sentinel/Sentinel-LightItalic.woff);
+}
+
 
 
 html,body{
@@ -8,10 +35,11 @@ html,body{
 
   background: #fff;
 
-  font-family: 'Inter','arial', sans-serif;
   color: #fff;
 
   position: relative;
+
+
 }
 
 
@@ -31,7 +59,76 @@ body{
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+
+
+justify-content: center;
+flex-direction:column;
+
 }
+
+
+
+.desc {
+
+float: left;
+display: block;
+
+position: absolute;
+z-index: 2;
+bottom:0;
+margin-bottom: 10vh;
+
+    font-size: 1.5em;
+line-height: 2.8rem;
+
+filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+
+flex-direction: column;
+}
+
+.desc a{
+color: #fff;
+text-decoration: underline;
+}
+
+.desc .italic{
+
+font-family: Sentinel-LightItalic;
+}
+
+.desc .normal{
+ 
+font-family: Sentinel-Medium;
+}
+
+.title {
+
+ background:  url("../images/logo-hazel.svg")  center center no-repeat ;
+ float:left;
+
+ display: block;
+ width: 20vh;
+
+top:0;
+margin-top: 10vh;
+ height: 20vh;
+ 
+ -webkit-background-size: 20vh;
+    -moz-background-size: 20vh;
+    -o-background-size: 20vh;
+    background-size: 20vh;
+
+
+position: absolute;
+z-index: 2;
+
+filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+
+}
+
+
+
+
  
 @keyframes fadeInAnimation {
     0% {
@@ -57,46 +154,46 @@ body{
 #back1 {
     background: url("../images/bg1.jpg") no-repeat top center fixed;
     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
 }
 
 #back2 {
     background: url("../images/bg2.jpg") no-repeat top center fixed;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
 }
 
 #back3 {
     background: url("../images/bg3.jpg") no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 #back4 {
     background: url("../images/bg4.jpg") no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
 }
 
 #back5 {
     background: url("../images/bg5.jpg") no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
 }
 
@@ -172,43 +269,6 @@ animation-duration: 16s;
 
 
 
-.desc {
-
-float: left;
-display: block;
-font-size: 1.2em;
-position: absolute;
-z-index: 2;
-font-family: 'Inter';
-
-font-weight: 400;
-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
-
-}
-
-
-.title {
-
- background:  url("../images/logo-hazel.svg")  center center no-repeat ;
- float:left;
-
- display: block;
- width: 40rem;
- height: 30rem;
- 
- -webkit-background-size: 30rem;
-    -moz-background-size: 30rem;
-    -o-background-size: 30rem;
-    background-size: 30rem;
-
- margin-top: 40rem;
-position: absolute;
-z-index: 2;
-
-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
-
-}
-
 
 
 
@@ -282,7 +342,7 @@ filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
  {
 
 
-.title {
+/*.title {
 
  width: 35rem;
  height: 25rem;
@@ -294,43 +354,36 @@ filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
 
  margin-top: 35rem;
 
+*/
+    
 
-}
-
-#back1 {background:  url("../images/bg1-mob.jpg")  no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-#back2 {background: url("../images/bg2-mob.jpg")no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-#back3 {background: url("../images/bg3-mob.jpg")no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-#back4 {background: url("../images/bg4-mob.jpg")no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-#back5 {background: url("../images/bg5-mob.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-
-
+        #back1 {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
+        #back2 {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
+        #back3 {b
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
+        #back4 {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
+        #back5 {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
 
 
-
-   .desc {
-font-size: 1.5rem;
-
-   }
 
 
 }
