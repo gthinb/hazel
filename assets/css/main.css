@@ -109,8 +109,8 @@ font-family: Sentinel-Medium;
  display: block;
  width: 20vh;
 
-top:0;
-margin-top: 10vh;
+
+margin-top: 20vh;
  height: 20vh;
  
  -webkit-background-size: 20vh;
@@ -154,46 +154,46 @@ filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
 #back1 {
     background: url("../images/bg1.jpg") no-repeat top center fixed;
     
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 #back2 {
     background: url("../images/bg2.jpg") no-repeat top center fixed;
 
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 #back3 {
     background: url("../images/bg3.jpg") no-repeat top center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #back4 {
     background: url("../images/bg4.jpg") no-repeat top center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 #back5 {
     background: url("../images/bg5.jpg") no-repeat top center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
